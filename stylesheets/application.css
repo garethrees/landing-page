@@ -161,3 +161,10 @@ article.testimonial > div,
 section#info > div {
     padding:0.5em;
 }
+
+footer {
+	margin:0 auto;
+	padding:20px;
+	width:960px;
+}
+
