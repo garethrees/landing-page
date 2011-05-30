@@ -1,12 +1,8 @@
 html { background:#eee; }
 
 body {
-	background:#FFF;
 	color:#111;
 	font-family:"Maven Pro", Arial, Helvetica, Sans-Serif;
-	margin:0 auto;
-	padding:20px;
-	width:960px;
 }
 
 h1,h2,h3,h4,h5,h6 { text-transform:uppercase; }
@@ -25,6 +21,13 @@ p {
 	font-size:0.9em;
 	line-height:1.3;
 	margin-bottom:0.75em;
+}
+
+#page {
+	background:#FFF;
+	margin:0 auto;
+	padding:20px;
+	width:960px;
 }
 
 header {
@@ -70,7 +73,7 @@ header nav li a {
 	text-decoration:none;
 }
 
-#body > h1 {
+#page > h1 {
 	color:#64ACDE;
 	font-size:3em;
 	font-weight:900;
@@ -160,5 +163,11 @@ section#info h1 {
 article.testimonial > div,
 section#info > div {
 	padding:0.5em;
+}
+
+footer {
+	margin:0 auto;
+	padding:20px;
+	width:960px;
 }
 
