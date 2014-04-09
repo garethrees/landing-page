@@ -1,6 +1,6 @@
-html { background:#eee; }
-
 body {
+	/** Dave - move background color to BODY from HTML so it will work when browser is resized **/
+	background:#eee;
 	color:#111;
 	font-family:"Maven Pro", Arial, Helvetica, Sans-Serif;
 }
